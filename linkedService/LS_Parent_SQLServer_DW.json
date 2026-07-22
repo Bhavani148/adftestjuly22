@@ -1,0 +1,22 @@
+{
+	"name": "LS_Parent_SQLServer_DW",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Selfhosted IR for Onprem Server Parent",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": ".",
+			"database": "Blinkit",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiMGVmYjI2Yi00MGVlLTQ1MGUtYjk2ZS1lOWY3MTE2NDU2YmMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

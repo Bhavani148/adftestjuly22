@@ -1,0 +1,15 @@
+{
+	"name": "demodatafactory148",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fef731b8-8ac1-4cdc-9778-e239dd144847",
+		"tenantId": "258e722a-1743-4824-b613-b1c5c894965f"
+	}
+}

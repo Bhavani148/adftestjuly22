@@ -1,0 +1,18 @@
+{
+	"name": "DS_BLOB_COPY",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB_COPY",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
